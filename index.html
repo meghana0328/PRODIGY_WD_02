@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body background="background.jpg">
+    <div class="stopwatch">
+        <h1>Stopwatch</h1>
+        <div class="time-display" id="time-display">00:00:00.00</div>
+        <div background="back2.jpg" class="buttons">
+            <button id="start-pause-button" onclick="startPause()">Start</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="lap()">Lap</button>
+        </div>
+        <div class="laps" id="laps"></div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
